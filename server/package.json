@@ -1,0 +1,37 @@
+{
+  "name": "moogiwara-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Backend server that handles game logic",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "fix": "gts fix",
+    "start": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^16.0.0",
+    "gts": "^4.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "google-auth-library": "^8.7.0",
+    "js-sdsl": "^4.2.0",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.20",
+    "shuffle-array": "^1.0.1",
+    "socket.io": "^4.5.4",
+    "unique-names-generator": "^4.7.1",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "author": "BAA Studios",
+  "license": "AGPL v3"
+}
